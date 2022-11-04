@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import {StatisticsContainer, Span} from "./Statistics.styled"
 
 
-export const Statistics = ({ good, neutral, bad, total, positivePercentage }) => {
+export const Statistics = ( {good, neutral, bad, total, positivePercentage} ) => {
     return (
             <StatisticsContainer>
                 <Span>Good: {good}</Span>
